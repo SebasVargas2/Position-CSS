@@ -1,0 +1,46 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    position: relative;
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    background-image: url(./assets/gtr.jpeg);
+    background-size: cover;
+}
+#uno {
+    position: absolute;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;   
+}
+
+#dos {
+    position: absolute;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    left: 200px;
+}
+
+#tres {
+    position: absolute;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    top: 200px;
+}
+
+#cuatro {
+    position: absolute;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    left: 200px;
+    top: 200px;
+}
